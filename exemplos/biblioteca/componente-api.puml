@@ -1,0 +1,11 @@
+@startuml BibliotecaAPIComponent
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Container(api, "API Backend", "FastAPI", "API REST Backend da aplicação") {
+    Component(router, "Rotas HTTP", "FastAPI APIRouter", "Recebe requisições HTTP")
+    Component(database, "Repositório", "SQLModel", "Persiste no DB")
+}
+
+Rel(router, database, "Chama métodos")
+
+@enduml
