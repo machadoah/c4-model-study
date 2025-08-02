@@ -15,7 +15,9 @@ A abordagem para descrever a arquitetura de software em diferentes níveis de de
 - **Código**: O nível mais baixo, detalhando o código-fonte e as implementações específicas.
   - **_Vale apena quando:_** Complexidade e criticidade alta.
 
-## Riscos -> Overengineering
+## Riscos
+
+### Overengineering
 - **Tempo e esforço**: Se a arquitetura for muito complexa, pode levar mais tempo para ser implementada documentada e mantida.
 - **Falta de flexibilidade**: Se a arquitetura for muito rígida, pode ser difícil adaptá-la a novas necessidades ou mudanças no sistema.
 - **Desatualização rápida**: Os dois últimos níveis do Modelo C4 (Componente e Código) podem se tornar obsoletos rapidamente, especialmente em sistemas ágeis onde as mudanças são frequentes.
